@@ -1,3 +1,1 @@
-# ct480_labs
-
-Labs for CT480 course - Lab5
+#đổi tên thư mục phù hợp với nơi lưu dự án trong file mvc.config 
