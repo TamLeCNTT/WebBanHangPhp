@@ -1,0 +1,336 @@
+/* Phần thêm mói */
+
+#nav-tem a {
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+#nav-tem a:hover {
+  background-color: #64b3f4;
+  color: #fff !important;
+}
+
+.nav-tem a {
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.nav-tem a:hover {
+  background-color: #64b3f4;
+  color: #fff !important;
+  color: #106eea;
+}
+
+/* /Phần thêm mới *
+
+
+
+/* Danh mục
+ */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cardss {
+  margin-top: 10px;
+  align-items: center;
+  height: 233px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  transition: 1s;
+}
+
+.cardss:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.overlayy {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.overlayy .fa-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(90, 23, 23);
+
+}
+
+.overlayy img {
+  object-fit: cover;
+  transition: all 2s;
+  height: 100%;
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+
+.top-divv {
+  position: relative;
+  padding: 20px;
+  font-size: 17px;
+  color: #fff;
+  z-index: 100000000000000;
+}
+
+.top-divv i:nth-child(1) {
+  top: 150px;
+  position: absolute;
+  transition: all 0.5s;
+  left: -40px;
+}
+
+.top-divv i:nth-child(2) {
+  position: absolute;
+  top: 150px;
+  right: -70px;
+  transition: all 0.5s;
+
+}
+
+.cardss:hover i:nth-child(1) {
+  top: 150px;
+  left: 120px;
+}
+
+.cardss:hover i:nth-child(2) {
+  right: 120px;
+}
+
+.imagee {
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 180px;
+  width: 70%;
+}
+
+.imagee span {
+  height: 100px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: 3px solid #fff;
+  z-index: 100;
+}
+
+.imagee span img {
+  margin-top: 10px;
+  object-fit: cover;
+  z-index: 10;
+  height: 100%;
+  width: 150%;
+}
+
+.imagee h3 {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 18px;
+  z-index: 100;
+  color: #fff;
+}
+
+
+.aboutt {
+  margin-top: -50px;
+  padding: 40px 20px;
+}
+
+.list-groupp {
+  margin-left: -21px;
+  width: 300px;
+}
+
+.list-groupp li {
+  margin-left: -130px;
+  text-align: center;
+}
+
+.card-header {
+  
+  width: 295px;
+}
+.over{
+ transition: 1s;
+}
+.over:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.d-flex img{
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+}
+
+/* Responsive */
+@media only screen and (max-width: 740px) {
+  .cardss {
+    margin-left: 25px;
+    width: 300px !important;
+    height: 420px !important;
+  }
+
+  .list-groupp li {
+    text-align: center;
+  }
+
+  .cardss:hover i:nth-child(1) {
+    top: 150px;
+    left: 120px;
+  }
+
+  .cardss:hover i:nth-child(2) {
+    right: 120px;
+  }
+}
+
+/* IP XR */
+@media only screen and (max-width: 840px) {
+  .cardss {
+    margin-left: 40px;
+    width: 300px !important;
+    height: 232px !important;
+  }
+
+  .cardss:hover i:nth-child(1) {
+    top: 150px;
+    left: 80px;
+  }
+
+  .cardss:hover i:nth-child(2) {
+    right: 80px;
+  }
+
+  .list-groupp b {
+    margin-left: 95px;
+    text-align: center;
+  }
+}
+
+
+/* Pixel 5 */
+@media only screen and (max-width: 400px) {
+  .cardss {
+    margin-left: 30px;
+    width: 300px !important;
+    height: 233px !important;
+  }
+
+  .cardss:hover i:nth-child(1) {
+    top: 150px;
+    left: 70px;
+  }
+
+  .cardss:hover i:nth-child(2) {
+    right: 70px;
+  }
+
+  .list-groupo b {
+    margin-left: 80px;
+    text-align: center;
+  }
+}
+
+/* IP SE */
+@media only screen and (max-width: 390px) {
+  .cardss {
+    margin-left: 25px;
+    width: 300px !important;
+    height: 233px !important;
+  }
+
+  .cardss:hover i:nth-child(1) {
+    top: 150px;
+    left: 80px;
+  }
+
+  .cardss:hover i:nth-child(2) {
+    right: 80px;
+  }
+}
+
+/* iPad Mini */
+@media only screen and (min-width:740px) and (max-width: 1024px) {
+  .cardss {
+    margin-left: 15px;
+    height: 232px !important;
+  }
+
+  .cardss:hover i:nth-child(1) {
+    top: 150px;
+    left: 80px;
+  }
+
+  .cardss:hover i:nth-child(2) {
+
+    right: 80px;
+  }
+}
+
+/* end danh mục */
+
+.a-h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #fff !important;
+  margin-bottom: 20px;
+}
+
+.a-strong {
+  border-radius: 7px;
+  color: #106eea;
+  padding: 0px 5px;
+  font-size: 35px;
+}
+
+.a-danhmuc {
+  border-radius: 10px;
+  width: 50%;
+  color: #64b3f4;
+}
+.a-danhmuc:hover {
+  background-color:#106eea ;
+  color: #fff !important;
+  color: #64b3f4;
+}
